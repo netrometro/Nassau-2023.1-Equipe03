@@ -1,0 +1,264 @@
+/*div do cabeçalho da pagina*/
+.Iniciopagina{
+
+    background-color: rgba(15, 39, 248, 1);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+}
+/*div princpial do */
+.Divtelainicial{
+    background-color: rgba(15, 39, 248, 1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: aliceblue;
+  }
+  /*div tela de cadastro e demais telas */
+  .headerctelacadastro{
+  background-color: rgb(238, 239, 243);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+}
+.Divtelainiciologado{
+    background-color: rgba(15, 39, 248, 1);
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: aliceblue;
+
+}
+ /* h1 telas de cadastro e demais*/
+#h1cadastro{
+    color: rgba(15, 39, 248, 1);
+
+}
+  /* botoes */
+  
+  #logar{
+
+    background-color:  aliceblue;
+    position: absolute;
+    padding: 5px;
+    width: 50%;
+    left: 25%;
+    top: 60%;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+
+}
+  #cadastro{
+    background-color:  aliceblue;
+    padding: 5px;
+    width: 50%;
+    left: 25%;
+    top: 60%;
+    position: absolute;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+  }
+  a:link{
+
+    color: white;
+    
+
+  }
+  a:visited{
+
+    color: black;
+
+  }
+  
+
+
+ /* botão tela de cadastro*/ 
+  #cadastradados{
+    background-color:  aliceblue;
+    padding: 5px;
+    width: 42%;
+    left: 25%;
+    top: 52%;
+    position: absolute;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+  }
+  #buttoninicio{
+    background-color:  aliceblue;
+    padding: 5px;
+    width: 30%;
+    left: 30%;
+    top: 60%;
+    position: absolute;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+  }
+/* h1 e rodape*/
+  h1{
+    text-align: center;
+    color: aliceblue;
+    
+  }
+
+  /*botoes e label de tela de inicio de logado*/
+  
+
+.labelmedicamentos{
+
+    background-color: rgb(161, 169, 236);
+    top: 5%;
+    padding: 5px;
+    width: 20%;
+    left: 13%;
+    position: absolute;
+    outline: none;
+    border-radius: 10px;
+    color:blue;
+    text-align: center;
+    font-size: 12px;
+    
+    
+  }
+  
+.labelprodutos{
+
+    background-color: rgb(161, 169, 236);
+    top: 5%;
+    padding: 5px;
+    width: 20%;
+    left: 38%;
+    position: absolute;
+    outline: none;
+    border-radius: 10px;
+    color:blue;
+    text-align: center;
+    font-size: 12px;
+    
+  }
+    
+.labelusuarios{
+
+    background-color: rgb(161, 169, 236);
+    top: 5%;
+    padding: 5px;
+    width: 20%;
+    left:65%;
+    position: absolute;
+    outline: none;
+    border-radius: 10px;
+    color:blue;
+    text-align: center;
+    font-size: 12px;
+    
+    
+  }
+    
+.labelfarmaceutico {
+
+    background-color: rgb(161, 169, 236);
+    top: 5%;
+    padding: 5px;
+    width: 20%;
+    left:90%;
+    position: absolute;
+    outline: none;
+    border-radius: 10px;
+    color:blue;
+    text-align: center;
+    font-size: 12px;
+
+}
+.labelgerente{
+
+    background-color: rgb(161, 169, 236);
+    top: 5%;
+    padding: 5px;
+    width: 20%;
+    left:65%;
+    position: absolute;
+    outline: none;
+    border-radius: 10px;
+    color:blue;
+    text-align: center;
+    font-size: 12px;
+    
+    
+  }
+
+  #buttoncadastro{
+    background-color:  aliceblue;
+    padding: 5px;
+    width: 42%;
+    left: 25%;
+    position: absolute;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+  }
+  #buttonpesquisa{
+    background-color:  aliceblue;
+    padding: 5px;
+    width: 42%;
+    left: 25%;
+    position: absolute;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+  }
+  #buttonalterar{
+    background-color:  aliceblue;
+    padding: 5px;
+    width: 42%;
+    left: 25%;
+    position: absolute;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+  }
+  
+  #buttonexcluir{
+    background-color:  aliceblue;
+    padding: 5px;
+    width: 42%;
+    left: 25%;
+    position: absolute;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+  }
+
+  footer{
+  
+    background-color:  rgba(15, 39, 248, 1);
+    margin-top: 47%;
+    width: 100%;
+    text-align: center;
+    padding: 0px, 0px, 0px;
+    left: 0%;
+  
+  }
+
+  p{
+    color: aliceblue;
+  }
+  
