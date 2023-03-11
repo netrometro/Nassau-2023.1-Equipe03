@@ -21,9 +21,9 @@
 
         <button class="labelprodutos"> PRODUTOS </button>
 
-        <button class="labelusuarios"> GERENTE </button>
+        <button class="labelgerente"> GERENTE </button>
 
-        <button class="labelusuarios"> FARMACEUTICO </button>
+        <button class="labelfarmaceutico"> FARMACEUTICO </button>
         
         <button id="buttoncadastro"> Cadastrar </button>
         <br> <br>
