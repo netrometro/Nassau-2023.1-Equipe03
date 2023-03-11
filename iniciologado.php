@@ -23,7 +23,7 @@
 
         <button class="labelgerente"> GERENTE </button>
 
-        <button class="labelfarmaceutico"> FARMACEUTICO </button>
+        <button class="labelfarmaceutico"> <a href="cadastro.php"  style="text-decoration:none" > FARMACEUTICO </button>
         
         <button id="buttoncadastro"> Cadastrar </button>
         <br> <br>
