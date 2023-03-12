@@ -7,6 +7,12 @@
     <title>Cadastrar</title>
 </head>
 <body>
-    <form action="#" method="post"></form>
+    <!-- DADOS PESSOAIS USUÁRIO -->
+    <form action="envio_dados.php" method="post">
+        <input type="text" name="nome" placeholder="Digite seu nome aqui">
+        <input type="text" name="email" placeholder="Digite seu E-mail">
+        <input type="text" name="endereco" placeholder="Digite seu endereco">
+        <input type="submit" name="enviar" value="Enviar">
+    </form>
 </body>
 </html>
