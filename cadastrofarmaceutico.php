@@ -1,19 +1,3 @@
-<?php
-//session_start();
-if(isset($_POST['submit'])){
-
-    $nome = ($_POST['nome']);
-    $senha = ($_POST['senha']);
-    $numero = $_POST['numero'];
-
-    //inserindo dados no banco para cadastro
-    $result = mysqli_query($conexao,
-    "INSERT INTO cadastrousuário(nome,senha,numero)
-     VALUES ('$nome','$senha','$numero')  ");
-
-}
-
-?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -34,7 +18,7 @@ if(isset($_POST['submit'])){
     <div class="Divtelainicial" >
         
         <h1>  Digite os dados </h1>
-        <form action ="" method="POST"> <!-- Criação de campos para preenchimento -->
+        <form action ="cadastrar.php" method="POST"> <!-- Criação de campos para preenchimento -->
            
             <input type="text" name="nome" placeholder="Digite seu nome"><br><br>          
             <input type="password" name="senha" placeholder="Digite sua senha"><br><br>
