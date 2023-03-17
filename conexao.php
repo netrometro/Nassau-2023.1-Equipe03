@@ -1,12 +1,17 @@
 <?php
-$servidor = "localhost";
-$usuario = "root";
-$senha = "";
-$bddados ="farmalog";
+$servername = "localhost";
+$usurname = "root";
+$password = "";
+$dbname ="farmalog";
 
 //criando conexão
 
-$conexao = mysqli_connect($servidor,$usuario,$senha,$bddados)
+$conexao = mysqli_connect($servername,$usurname,$password,$dbname)
 
+if(! $conexao){
 
-;
+    die("Flaha na conexao:". mysqli_connect_error().$conexao);
+
+}
+
+?>
