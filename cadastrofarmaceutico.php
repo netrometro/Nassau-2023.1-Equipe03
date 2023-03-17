@@ -25,7 +25,7 @@
             <input type="numero" name="numero" placeholder="Digite sua numero"><br><br>
         
             <input  id ="inputsubmit" type="submit"  value="Cadastrar" name ="submit"> <!-- Criação de tecla de redirecionamento-->
-            <br><br> <br><br> <br><br>
+            <br><br> <br><br> <br><br> <br><br> <br><br> <br><br>
             <button id ="buttoninicio">  <a href="iniciologado.php"  style="text-decoration:none" > Voltar </button>
         </form>  
         

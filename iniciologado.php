@@ -23,15 +23,15 @@
 
         <button class="labelgerente"> GERENTE </button>
 
-        <button class="labelfarmaceutico"> <a href="cadastro.php"  style="text-decoration:none" > FARMACEUTICO </button>
+        <button class="labelfarmaceutico"> <a href="iniciologado.php"  style="text-decoration:none" > FARMACEUTICO </button>
         
-        <button id="buttoncadastro"> Cadastrar </button>
+        <!--button id="buttoncadastro"> Cadastrar </button>
         <br> <br>
         <button id ="buttonpesquisa"> Visualizar </button>
         <br> <br>
         <button id="buttonalterar"> Alterar </button>
         <br> <br>
-        <button id ="buttonexcluir"> Excluir </button>
+        <button id ="buttonexcluir"> Excluir </button!-->
     
     </div>
     <footer>

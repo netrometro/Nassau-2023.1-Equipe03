@@ -101,8 +101,8 @@
     background-color:  aliceblue;
     padding: 5px;
     width: 30%;
-    left: 30%;
-    top: 60%;
+    left: 50%;
+    top: 70%;
     position: absolute;
     outline: none;
     border-radius: 10px;
@@ -114,9 +114,8 @@
     background-color:  aliceblue;
     padding: 5px;
     width: 30%;
-    left: 30%;
-    top: 64%;
-    position: absolute;
+    left: 50%;
+    top: 50%;
     outline: none;
     border-radius: 10px;
     cursor: pointer;
