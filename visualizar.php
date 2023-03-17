@@ -1,5 +1,6 @@
 <?php
-
+    
+    include_once 'conexao.php';
     $result = "SELECT * FROM  cadastrousuário";
     $resulta_dodados = mysqli_query($conexao, $result);
     $tabela = '<table border="1">';
@@ -15,20 +16,46 @@
 
 <div class="Divtelainicial" >
     
-    <h1>  Lista de cadastrados </h1>
-    <form action ="cadastro.php" method="POST"> <!-- Criação de campos para preenchimento -->
-       
-        <input type="text" name="nome" placeholder="Digite seu nome"><br><br>          
-        <input type="password" name="senha" placeholder="Digite sua senha"><br><br>
-        <input type="numero" name="numero" placeholder="Digite sua numero"><br><br>
+    <h1> Farmaceutico cadastrados </h1>
     
-        <input  id ="inputsubmit" type="submit"  value="Cadastrar" name ="submit"> <!-- Criação de tecla de redirecionamento-->
-        <br><br> <br><br> <br><br><br><br><br><br>
-        <button id ="buttoninicio">  <a href="iniciologado.php"  style="text-decoration:none" > Voltar </button>
-    </form>  
+    <table border="1">
+                <thead>
+                    <tr>
+                        <th> ID </th>
+                        <th>NOME</th>
+                        <th>SENHA</th>
+                        <th>NUMERO</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php
+
+                    while($row_usuario = mysqli_fetch_assoc($resulta_dodados) ){
+                   
+                        $id = $row_usuario ['id']. "<br>"; 
+                        $nome= $row_usuario['nome'] . "<br>";
+                        $celular= $row_usuario['senha']. "<br>";
+                        $cidade= $row_usuario['numero']. "<br>";
+                     
+                    ?>  
+                    <tr>
+                        <td><?php echo $id ?></td>
+                        <td><?php echo $nome ?></td>
+                        <td><?php echo $senha ?></td>
+                        <td><?php echo $numero ?></td>
+                        
+                    </tr> <br>
+                    <?php
+                    }
+                    ?>
+
+                </tbody>
+        </table>
     
 
 </div>
 <footer>
     <p> BJJSoftware2023 </p>
 </footer>
+
+</body>
