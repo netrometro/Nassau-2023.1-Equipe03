@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
 $usurname = "root";
-$password = "ju1@";
-$dbname ="db_projeto";
+$password = "";
+$dbname ="farmalog";
 
 //criando conexão
 

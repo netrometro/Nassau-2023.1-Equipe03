@@ -17,27 +17,8 @@
     <title>Listagem de cadastro</title>
 </head>
 <body>
-    <header class="headerctelacadastro">
-
-        <h1 id="h1cadastro"> Cadastro de Farmaceutico </h1>
-
-    </header>
-    <div class="Divtelainicial" >
-    <form action ="excluir.php" method="POST"> <!-- Criação de campos para preenchimento -->
-           
-        <input type="text" name="nome" placeholder="Digite o id para exclui dados "><br><br>           
-        <input id="cadastradados" type="submit" value="Excluir" nome="submit"> 
-
-        <input  type="submit"  value="Excluir" name ="submit"> <!-- Criação de tecla de redirecionamento-->
-
-        <br><br> <br><br> <br><br><br><br><br><br>
-        <button id ="buttoninicio">  <a href="iniciologado.php"  style="text-decoration:none" > Voltar </button>
-
-    </form>  
-    </div>
-
-    <div class="tabela">
-        <table border="1">
+    
+      <table border="1">
                 <thead>
                     <tr>
                         <th> ID </th>
@@ -70,11 +51,8 @@
 
             </tbody>
           </table>
-    </div> 
 
-    <footer>
-        <p> BJJSoftware2023</p>
-    </footer>             
-    
+
+  
 </body>
 </html>
