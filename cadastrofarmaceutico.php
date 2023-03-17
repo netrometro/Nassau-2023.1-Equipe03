@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,20 +19,14 @@
         
         <h1>  Digite os dados </h1>
         <form action ="" method="POST"> <!-- Criação de campos para preenchimento -->
-                        
-           <label  id="" for="Nome">
-              <input type="nome" name="nome" method="POST" placeholder="Nome">
-           </label> <br>
-            <label   id="" for="Senha">
-              <input type="numero" name="codigo" required method="POST" placeholder="Codigo">
-            </label><br>
-            <label   id="" for="Senha">
-              <input type="text" name="nomefabricante" required method="POST" placeholder="Fabricante">
-            </label><br>
-            
-                <input id="cadastradados" type="submit" value="Cadastrar"> <br><br><br> <!-- Criação de tecla de redirecionamento-->
-                <br><br> <br><br> <br><br>
-                <button id ="buttoninicio">  <a href="iniciologado.php"  style="text-decoration:none" > Voltar </button>
+           
+            <input type="text" name="nome" placeholder="Digite seu nome"><br><br>          
+            <input type="password" name="senha" placeholder="Digite sua senha"><br><br>
+            <input type="numero" name="numero" placeholder="Digite sua numero"><br><br>
+            ]
+            <input type="submit"  value="Acessar" name ="submit"> <!-- Criação de tecla de redirecionamento-->
+            <br><br> <br><br> <br><br>
+            <button id ="buttoninicio">  <a href="iniciologado.php"  style="text-decoration:none" > Voltar </button>
         </form>  
         
     
