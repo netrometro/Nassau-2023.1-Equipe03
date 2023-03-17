@@ -23,8 +23,8 @@
             <input type="text" name="nome" placeholder="Digite seu nome"><br><br>          
             <input type="password" name="senha" placeholder="Digite sua senha"><br><br>
             <input type="numero" name="numero" placeholder="Digite sua numero"><br><br>
-            ]
-            <input type="submit"  value="Acessar" name ="submit"> <!-- Criação de tecla de redirecionamento-->
+        
+            <input  id ="inputsubmit" type="submit"  value="Cadastrar" name ="submit"> <!-- Criação de tecla de redirecionamento-->
             <br><br> <br><br> <br><br>
             <button id ="buttoninicio">  <a href="iniciologado.php"  style="text-decoration:none" > Voltar </button>
         </form>  
