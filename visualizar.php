@@ -25,11 +25,14 @@
     <div class="Divtelainicial" >
     <form action ="excluir.php" method="POST"> <!-- Criação de campos para preenchimento -->
            
-            <input type="text" name="id" placeholder="Digite o numero  id"><br><br>          
-        
-            <input  id ="inputsubmit" type="submit"  value="Excluir" name ="submit"> <!-- Criação de tecla de redirecionamento-->
-            <br><br> <br><br> <br><br><br><br><br><br>
-            <button id ="buttoninicio">  <a href="iniciologado.php"  style="text-decoration:none" > Voltar </button>
+        <input type="text" name="nome" placeholder="Digite o id para exclui dados "><br><br>           
+        <input id="cadastradados" type="submit" value="Excluir" nome="submit"> 
+
+        <input  type="submit"  value="Excluir" name ="submit"> <!-- Criação de tecla de redirecionamento-->
+
+        <br><br> <br><br> <br><br><br><br><br><br>
+        <button id ="buttoninicio">  <a href="iniciologado.php"  style="text-decoration:none" > Voltar </button>
+
     </form>  
     </div>
 
