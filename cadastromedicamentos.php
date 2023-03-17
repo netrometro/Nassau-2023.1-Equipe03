@@ -21,13 +21,13 @@
         <form action ="" method="POST"> <!-- Criação de campos para preenchimento -->
                         
            <label  id="" for="Nome">
-              <input type="nome" name="" method="POST" placeholder="Nome">
+              <input type="numero" name="codigo" method="POST" placeholder="Digite seu codigo">
            </label> <br>
             <label   id="" for="Senha">
-              <input type="numero" name="codigo" required method="POST" placeholder="Codigo">
+              <input type="numero" name="data" required method="POST" placeholder="Digite a data">
             </label><br>
-            <label   id="" for="Senha">
-              <input type="text" name="nomefabricante" required method="POST" placeholder="Fabricante">
+            <label   id="" for="fabricante">
+              <input type="text" name="nomefabricante" required method="POST" placeholder="Nome do Fabricante">
             </label><br>
             
                 <input id="cadastradados" type="submit" value="Cadastrar"> <br><br><br> <!-- Criação de tecla de redirecionamento-->
