@@ -23,7 +23,7 @@
 
     </header>
 
-    <div class="tabela"></div> 
+    <div class="tabela">
         <table border="1">
                 <thead>
                     <tr>
@@ -55,8 +55,8 @@
                     }
                     ?>
 
-                </tbody>
-                 </table>
+            </tbody>
+          </table>
     </div> 
 
     <footer>
