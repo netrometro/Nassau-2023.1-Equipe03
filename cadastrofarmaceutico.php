@@ -19,7 +19,7 @@
     <div class="Divtelainicial" >
         
         <h1>  Digite os dados </h1>
-        <form action ="" method="POST"> <!-- Criação de campos para preenchimento -->
+        <form action ="cadastro.php" method="POST"> <!-- Criação de campos para preenchimento -->
            
             <input type="text" name="nome" placeholder="Digite seu nome"><br><br>          
             <input type="password" name="senha" placeholder="Digite sua senha"><br><br>
