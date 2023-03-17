@@ -2,7 +2,7 @@
 $servername = "localhost";
 $usurname = "root";
 $password = "";
-$dbname ="farmalog";
+$dbname ="db_projeto";
 
 //criando conexão
 
