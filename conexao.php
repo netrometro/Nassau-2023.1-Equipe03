@@ -6,7 +6,7 @@ $dbname ="farmalog";
 
 //criando conexão
 
-$conexao = mysqli_connect($servername,$usurname,$password,$dbname);
+$conexao = mysqli_connect($servername,$usurname,$password,$dbname)
 
 /*if(! $conexao){
 
@@ -14,4 +14,4 @@ $conexao = mysqli_connect($servername,$usurname,$password,$dbname);
 
 }
 echo "conectado!";*/
-?>
+;

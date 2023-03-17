@@ -8,7 +8,7 @@ if(isset($_POST['submit'])){
 
     //inserindo dados no banco para cadastro
     $result = mysqli_query($conexao,
-    "INSERT INTO cadastrousuário(nome,senha,numero)
+    "INSERT INTO adastrousuário(nome,senha,numero)
      VALUES ('$nome','$senha','$numero')  ");
 
 }
