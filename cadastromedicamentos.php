@@ -21,7 +21,7 @@
         <form action ="" method="POST"> <!-- Criação de campos para preenchimento -->
                         
            <label  id="" for="Nome">
-              <input type="nome" name="nome" method="POST" placeholder="Nome">
+              <input type="nome" name="" method="POST" placeholder="Nome">
            </label> <br>
             <label   id="" for="Senha">
               <input type="numero" name="codigo" required method="POST" placeholder="Codigo">
