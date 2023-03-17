@@ -1,12 +1,17 @@
 <?php
-$hostname = 'localhost';
-$bancodedados = 'db_projeto';
-$usuario = 'root';
-$senha = 'ju1@';
+$servername = "localhost";
+$usurname = "root";
+$password = "";
+$dbname ="farmalog";
 
-$con = new mysqli($hostname, $usuario, $senha, $bancodedados);
-if($con -> connect_errno){
-    echo "falha ao conectar (" . $mysqli -> connect_errno .") " . $mysqli -> connect_errno;
-}else {
-    echo "Conectado!";
+//criando conexão
+
+$conexao = mysqli_connect($servername,$usurname,$password,$dbname)
+
+/*if(! $conexao){
+
+    die("Flaha na conexao:". mysqli_connect_error().$conexao);
+
 }
+echo "conectado!";*/
+;
