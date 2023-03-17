@@ -19,11 +19,11 @@
 <body>
     <header class="headerctelacadastro">
 
-        <h1 id="h1cadastro"> Cadastro de Medicamentos </h1>
+        <h1 id="h1cadastro"> Cadastro de Farmaceutico </h1>
 
     </header>
 
-    <div class="Divtelainicial" >
+    <div class="tabela"></div> 
         <table border="1">
                 <thead>
                     <tr>
@@ -56,8 +56,9 @@
                     ?>
 
                 </tbody>
-         </table>
-         </div>
+                 </table>
+    </div> 
+
     <footer>
         <p> BJJSoftware2023</p>
     </footer>             
