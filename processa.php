@@ -1,5 +1,5 @@
 <?php
-//session_start();
+session_start();
 
 include_once("conexao.php");
 
@@ -13,13 +13,28 @@ $sexo = filter_input (INPUT_POST, 'sexo');
 $result_usuario = "INSERT INTO usuario (nome, cpf, email, telefone, endereco, sexo) VALUE ('$nome', '$cpf', '$email', '$telefone', '$endereco', '$sexo')";
 $resultado_usuario = mysqli_query($con, $result_usuario);
 
-// if (mysqli_insert_id($con)){
-//     $_SESSION['msg'] = "<p style='color:green;'>Usuário cadastrado com sucesso!</p>";
-//     header("Location: cadastrar.php");
-// }else{
-//     $_SESSION['msg'] = "<p style='color:red;'>Usuário não cadastrado</p>";
-//     header("Location: cadastrar.php");
-// }
+$codigo = filter_input (INPUT_POST, 'codigo');
+$fornecedor = filter_input (INPUT_POST, 'fornecedor');
+$fabricante = filter_input (INPUT_POST, 'fabricante');
+
+$result_medicamento = "INSERT INTO medicamentos (codigo, fornecedor, fabricante) VALUE ('$codigo', '$fornecedor', '$fabricante')";
+$resultado_medicamentos = mysqli_query($con, $result_medicamento);
+
+if (mysqli_insert_id($con)){
+    $_SESSION['msg'] = "<p style='color:green;'>Usuário cadastrado com sucesso!</p>";
+    header("Location: cadastro.php");
+}else{
+    $_SESSION['msg'] = "<p style='color:red;'>Usuário não cadastrado</p>";
+    header("Location: cadastro.php");
+}
+//Status de confirmação de cadastro em medicamentos
+if (mysqli_insert_id($con)){
+    $_SESSION['msg'] = "<p style='color:green;'>Medicamento cadastrado com sucesso!</p>";
+    header("Location: cadastraMedicamentos.php");
+}else{
+    $_SESSION['msg'] = "<p style='color:red;'>Medicamento não cadastrado</p>";
+    header("Location: cadastraMedicamentos.php");
+}
 
 // echo "Nome: $nome <br>";
 // echo "CPF: $cpf <br>";
