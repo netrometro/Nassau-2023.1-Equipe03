@@ -25,7 +25,7 @@
         <input type="text" name="email" placeholder="informe seu E-mail">
         <input type="text" name="telefone" placeholder="informe seu telefone">
         <input type="text" name="endereco" placeholder="informe endereço">
-        <input type="text" name="email" placeholder="Digite seu gênero">
+        <input type="text" name="sexo" placeholder="Digite seu gênero">
         <input type="submit" value="Cadastrar">
     </form>
 </body>
