@@ -36,7 +36,7 @@
         </form>  
         <?php
          include ("conexao.php");
-         $sql =" INSERT INTO cadastrousuário(nome, senha, numero) VALUES (nome, codigo,nomefabricante )";
+         $sql =" INSERT INTO cadastromedicamentos(nome, senha, numero) VALUES (codigo,data,nomefabricante )";
         if( $conn->query($sql)== true){
 
             echo"Inseridos";
