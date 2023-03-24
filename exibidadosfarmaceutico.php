@@ -24,10 +24,29 @@
     <table border ="1" width="100%">
         <thead>
             <th> ID </th>
-            <th> ID </th>
-            <th> ID </th>
-            <th> ID </th>
+            <th> NOME </th>
+            <th> SENHA </th>
+            <th> NUMERO </th>
         </thead>
+        <tbody>
+            <?php
+
+                while($row_usuario = mysqli_fetch_assoc($resultado_dados)){
+
+                    $id= $row_usuario['id']."<br>";
+                    $nome = $row_usuario['nome']."<br>";
+                    $senha= $row_usuario['senha']."<br>";
+                    $numero= $row_usuario['numero']."<br>";
+
+                }
+            ?>
+            <tr>
+                <td> <?php echo $id?></td>
+                <td> <?php echo $nome?></td>
+                <td> <?php echo $senha?></td>
+                <td> <?php echo $numero?></td>
+            </tr>
+        </tbody>
     </table>
     
 </body>
