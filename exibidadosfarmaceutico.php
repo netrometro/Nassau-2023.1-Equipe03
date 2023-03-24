@@ -3,6 +3,14 @@
     include_once 'conexao.php';
 
 ?>
+<?php
+
+    // exibindo dados de farmaceutico
+    $result ="SELECT * FROM cadastrousuario";
+    $resultado_dados = mysqli_query($conexao, $result);
+    $tabela ='<table border="1">';
+
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
