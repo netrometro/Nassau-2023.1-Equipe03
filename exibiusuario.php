@@ -22,7 +22,7 @@
 <body>
 <div class="Divtelainicial" >
       
-      <h1>  Digite os dados </h1>
+      <h1>  Digite o ID para alterar ou excluir </h1>
       <form action ="cadastromedicamentos.php" method="POST"> <!-- Criação de campos para preenchimento -->
          
           <input type="numero" name="codigo" placeholder="Digite seu codigo"><br><br>          
