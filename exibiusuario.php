@@ -29,7 +29,7 @@
           <input type="numero" name="codigo" placeholder="Digite novo codigo"> <br><br>
           <input type="date" name="datan" placeholder="Digite nova validade"> <br><br>
           <input type="fabricante" name="fabricante" placeholder="Digite novo fabricante"> <br><br>
-          
+
           <input id="cadastradados" type="submit" name="submit" value="ALTERAR"><br><br> 
 
           <br><br> 
@@ -43,7 +43,7 @@
       </form>  
       <button id ="buttoninicio">  <a href="iniciologado.php"  style="text-decoration:none" > Voltar </button>
   
-  </div>
+</div>
 
 <table border="1" width="100%"> 
 

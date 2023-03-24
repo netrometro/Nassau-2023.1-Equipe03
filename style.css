@@ -127,9 +127,9 @@
     background-color:  aliceblue;
     padding: 5px;
     width: 30%;
-    left: 0%;
-    top: 80%;
-    position: absolute;
+    left: 50%;
+    top: 70%;
+    position: relative;
     outline: none;
     border-radius: 10px;
     cursor: pointer;
