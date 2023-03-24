@@ -26,5 +26,23 @@
         <input type="text" name="preco" placeholder="Valor do Medicamento">
         <input type="submit" value="Cadastrar">
     </form>
+
+    <?php
+        
+        $conn = mysqli_connect("localhost","root","", "db_projeto");
+        $resultado = mysqli_query($conn,"SELECT * FROM medicamentos");
+        echo "<table>";
+        echo "<tr><th>codigo</th><th>fornecedor</th><th>fabricante</th><th>preco</th></tr>";
+        while ($linha = mysqli_fetch_assoc($resultado)) {
+        echo "<tr>";
+        echo "<td>" . $linha['codigo'] . "</td>";
+        echo "<td>" . $linha['fornecedor'] . "</td>";
+        echo "<td>" . $linha['fabricante'] . "</td>";
+        echo "<td>" . $linha['preco'] . "</td>";
+        echo "</tr>";
+}
+echo "</table>";
+
+   ?>
 </body>
 </html>
