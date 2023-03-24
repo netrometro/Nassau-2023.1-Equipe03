@@ -13,6 +13,7 @@ if(isset($_POST['submit'])){
     "INSERT INTO cadastrousuário(nome,senha,numero)
      VALUES ('$nome','$senha','$numero')  ");
 
+    header('Location: exibirusuario.php');
 }
 
 ?>

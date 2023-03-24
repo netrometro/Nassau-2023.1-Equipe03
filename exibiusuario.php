@@ -22,7 +22,7 @@
 <body>
 <div class="Divtelainicial" >
       
-      <h1>  ALTERAR OU EXCLUIR DADOS</h1>
+      <h1>  ALTERAR OU EXCLUIR DADOS </h1>
       <form action ="alterar.php" method="POST"> <!-- Criação de campos para preenchimento -->
 
           <input type="numero" name="id" placeholder="Digite o ID para alterar dados"><br><br>  
