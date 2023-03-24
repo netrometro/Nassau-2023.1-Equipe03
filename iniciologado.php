@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,7 +17,7 @@
     
     <div class="Divtelainiciologado" >
         
-        <button class="labelmedicamentos"> MEDICAMENTOS </button>
+        <button class="labelmedicamentos"> <a  id= "ancora" href="cadastromedicamentos.php">MEDICAMENTOS </button>
 
         <button class="labelprodutos"> PRODUTOS </button>
 

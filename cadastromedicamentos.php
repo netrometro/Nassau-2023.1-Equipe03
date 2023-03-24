@@ -2,21 +2,6 @@
 //session_start();
 include_once 'conexao.php';
 
-if(isset($_POST['submit'])){
-
-    $codigo = ($_POST['codigo']);
-    $data = ($_POST['datan']);
-    $fabricante = $_POST['fabricante'];
-    
-
-    //inserindo dados no banco para cadastro
-    $result = mysqli_query($conexao,
-    "INSERT INTO cadastromedicamentos(codigo,validade,fabricante)
-     VALUES ('$codigo','$data','$fabricante')  ");
-  
-
-}
-
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -41,7 +26,7 @@ if(isset($_POST['submit'])){
         <form action ="cadastromedicamentos.php" method="POST"> <!-- Criação de campos para preenchimento -->
            
             <input type="numero" name="codigo" placeholder="Digite seu codigo"><br><br>          
-            <input type="data" name="datan" placeholder="Digite a data"><br><br>
+            <input type="date" name="datan" placeholder="Digite a data"><br><br>
             <input type="fabricante" name="fabricante" placeholder="Digite o fabricante"><br><br>
             
             <input id="cadastradados" type="submit" name="submit" value="Cadastrar"> <br><br><br> <!-- Criação de tecla de redirecionamento-->
