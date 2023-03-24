@@ -22,11 +22,11 @@
 <body>
 <div class="Divtelainicial" >
       
-      <h1>  Digite o ID para alterar</h1>
+      <h1>  ALTERAR OU EXCLUIR DADOS</h1>
       <form action ="cadastromedicamentos.php" method="POST"> <!-- Criação de campos para preenchimento -->
          
           <input type="numero" name="id" placeholder="Digite o Id para alterar dados"><br><br>  
-          <input id="cadastradados" type="submit" name="submit" value="Cadastrar">
+          <input id="cadastradados" type="submit" name="submit" value="Cadastrar"><br><br> 
 
           <input type="numero" name="id" placeholder="Digite o ID para excliuir dados"><br><br>
           
