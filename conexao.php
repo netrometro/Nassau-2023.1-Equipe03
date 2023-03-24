@@ -2,7 +2,7 @@
 
 $servidor = "localhost";
 $usuario = "root";
-$senha = "ju1@";
+$senha = "";
 $dbname = "db_projeto";
 
 //Criar a conexão

@@ -23,6 +23,7 @@
         <input type="text" name="codigo" placeholder="Digite o codigo do medicamento">
         <input type="text" name="fornecedor" placeholder="Informe fornecedor">
         <input type="text" name="fabricante" placeholder="informe fabricante">
+        <input type="text" name="preco" placeholder="Valor do Medicamento">
         <input type="submit" value="Cadastrar">
     </form>
 </body>
