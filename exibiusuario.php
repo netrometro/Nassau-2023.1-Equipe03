@@ -10,7 +10,7 @@
 
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -32,7 +32,23 @@
     </thead>
     <tbody>
         <?php
-        
+
+            while($_usuario = mysqli_fetch_assoc($resulta_dodados)){
+
+                $id = $row_usuario['id']. "<br>";
+                $id = $row_usuario['codigo']. "<br>";
+                $id = $row_usuario['datan']. "<br>";
+                $id = $row_usuario['fabricante']. "<br>";
+
+        ?>    
+        <tr>
+            <td> <?php echo $id?> </td>
+            <td> <?php echo $codigo?> </td>
+            <td> <?php echo $data?> </td>
+            <td> <?php echo $fabricante?> </td>
+        </tr> <br>
+        <?php
+        }
         ?>
     </tbody>
 </table>
