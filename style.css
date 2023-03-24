@@ -122,6 +122,18 @@
     cursor: pointer;
 
   }
+  #buttontelamanipuladados{
+
+    background-color:  aliceblue;
+    padding: 5px;
+    width: 30%;
+    left: 20%;
+    top: 70%;
+    position: absolute;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
   #inputsubmit{
 
     background-color:  aliceblue;
