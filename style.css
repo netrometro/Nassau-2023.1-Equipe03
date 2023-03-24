@@ -40,8 +40,9 @@
 }
 /* tabela*/
 
-.tabela{
+/*.tabela{
     background-color: rgba(15, 39, 248, 1);
+    width: 100%;
     position: absolute;
     top: 55%;
     left: 50%;
@@ -49,7 +50,7 @@
     padding: 80px;
     border-radius: 15px;
     color: aliceblue;
-  }
+  }*/
  /* h1 telas de cadastro e demais*/
 #h1cadastro{
     color: rgba(15, 39, 248, 1);

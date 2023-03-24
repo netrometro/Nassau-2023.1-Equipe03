@@ -23,7 +23,6 @@
 
     </header>
     
-    <div class="tabela">
         <table border="1" width="100%">
                 <thead>
                     <tr>
@@ -57,7 +56,7 @@
 
             </tbody>
           </table>
-    </div> 
+
 
     <footer>
         <p> BJJSoftware2023</p>
