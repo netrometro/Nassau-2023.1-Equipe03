@@ -23,18 +23,20 @@
 <div class="Divtelainicial" >
       
       <h1>  ALTERAR OU EXCLUIR DADOS</h1>
-      <form action ="cadastromedicamentos.php" method="POST"> <!-- Criação de campos para preenchimento -->
-         
-          <input type="numero" name="id" placeholder="Digite o Id para alterar dados"><br><br>  
-          <input id="cadastradados" type="submit" name="submit" value="Cadastrar"><br><br> 
+      <form action ="alterar.php" method="POST"> <!-- Criação de campos para preenchimento -->
+
+          <input type="numero" name="id" placeholder="Digite o ID para alterar dados"><br><br>  
+          <input id="cadastradados" type="submit" name="submit" value="ALTERAR"><br><br> 
+          <br><br> 
+      </form>
+
+      <form action ="excluir.php" method="POST"> <!-- Criação de campos para preenchimento -->
 
           <input type="numero" name="id" placeholder="Digite o ID para excliuir dados"><br><br>
-          
-          <input id="cadastradados" type="submit" name="submit" value="Cadastrar"> <br><br><br> <!-- Criação de tecla de redirecionamento-->
-          <br><br> <br><br> <br><br>
-          <button id ="buttoninicio">  <a href="iniciologado.php"  style="text-decoration:none" > Voltar </button>
+          <input id="cadastradados" type="submit" name="submit" value="EXCLUIR"> <br><br><br> <!-- Criação de tecla de redirecionamento-->
+          <br><br> 
       </form>  
-     
+      <button id ="buttoninicio">  <a href="iniciologado.php"  style="text-decoration:none" > Voltar </button>
   
   </div>
 
