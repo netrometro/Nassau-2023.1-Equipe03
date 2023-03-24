@@ -27,8 +27,9 @@
 
           <input type="numero" name="id" placeholder="Digite o ID para alterar dados"><br><br>  
           <input type="numero" name="codigo" placeholder="Digite novo codigo"> <br><br>
-          <input type="data" name="datan" placeholder="Digite nova validade"> <br><br>
+          <input type="date" name="datan" placeholder="Digite nova validade"> <br><br>
           <input type="fabricante" name="fabricante" placeholder="Digite novo fabricante"> <br><br>
+          
           <input id="cadastradados" type="submit" name="submit" value="ALTERAR"><br><br> 
 
           <br><br> 
