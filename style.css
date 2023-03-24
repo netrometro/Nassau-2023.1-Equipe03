@@ -122,18 +122,20 @@
     cursor: pointer;
 
   }
-  #buttontelamanipuladados{
+  .buttonmanipuladados{
 
     background-color:  aliceblue;
     padding: 5px;
     width: 30%;
-    left: 20%;
-    top: 70%;
+    left: 0%;
+    top: 80%;
     position: absolute;
     outline: none;
     border-radius: 10px;
     cursor: pointer;
+
   }
+
   #inputsubmit{
 
     background-color:  aliceblue;
