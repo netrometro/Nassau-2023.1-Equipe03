@@ -14,6 +14,7 @@ if(isset($_POST['submit'])){
      VALUES ('$nome','$senha','$numero')  ");
 
     header('Location: exibirusuario.php');
+
 }
 
 ?>
