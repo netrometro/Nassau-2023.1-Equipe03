@@ -20,6 +20,15 @@
     <title>FarmaLogo</title>
 </head>
 <body>
+
+    <table border ="1" width="100%">
+        <thead>
+            <th> ID </th>
+            <th> ID </th>
+            <th> ID </th>
+            <th> ID </th>
+        </thead>
+    </table>
     
 </body>
 </html>
