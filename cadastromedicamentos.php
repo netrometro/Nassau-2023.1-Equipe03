@@ -1,3 +1,23 @@
+<?php
+//session_start();
+include_once 'conexao.php';
+
+if(isset($_POST['submit'])){
+
+    $codigo = ($_POST['codigo']);
+    $data = ($_POST['datan']);
+    $fabricante = $_POST['fabricante'];
+    
+
+    //inserindo dados no banco para cadastro
+    $result = mysqli_query($conexao,
+    "INSERT INTO cadastromedicamentos(codigo,validade,fabricante)
+     VALUES ('$codigo','$data','$fabricante')  ");
+  
+
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,34 +38,16 @@
     <div class="Divtelainicial" >
       
         <h1>  Digite os dados </h1>
-        <form action ="" method="POST"> <!-- Criação de campos para preenchimento -->
-                        
-           <label  id="" for="Nome">
-              <input type="numero" name="codigo" method="POST" placeholder="Digite seu codigo">
-           </label> <br>
-            <label   id="" for="Senha">
-              <input type="numero" name="data" required method="POST" placeholder="Digite a data">
-            </label><br>
-            <label   id="" for="fabricante">
-              <input type="text" name="nomefabricante" required method="POST" placeholder="Nome do Fabricante">
-            </label><br>
+        <form action ="cadastromedicamentos.php" method="POST"> <!-- Criação de campos para preenchimento -->
+            <input type="numero" name="codigo" placeholder="Digite seu codigo"><br><br>          
+            <input type="data" name="datan" placeholder="Digite a data"><br><br>
+            <input type="fabricante" name="fabricante" placeholder="Digite o fabricante"><br><br>
             
-                <input id="cadastradados" type="submit" value="Cadastrar"> <br><br><br> <!-- Criação de tecla de redirecionamento-->
+                <input id="cadastradados" type="submit" name="submit" value="Cadastrar"> <br><br><br> <!-- Criação de tecla de redirecionamento-->
                 <br><br> <br><br> <br><br>
                 <button id ="buttoninicio">  <a href="iniciologado.php"  style="text-decoration:none" > Voltar </button>
         </form>  
-        <?php
-         include ("conexao.php");
-         $sql =" INSERT INTO cadastromedicamentos(nome, senha, numero) VALUES (codigo,data,nomefabricante )";
-        if( $conn->query($sql)== true){
-
-            echo"Inseridos";
-
-        }else{
-            echo"ERRO: ". $sql."<br>". $conn->error;
-        }
-        $conn->close();
-        ?> 
+       
     
     </div>
     <footer>
