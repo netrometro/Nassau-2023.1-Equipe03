@@ -38,14 +38,17 @@
                     $senha= $row_usuario['senha']."<br>";
                     $numero= $row_usuario['numero']."<br>";
 
-                }
+                
             ?>
             <tr>
                 <td> <?php echo $id?></td>
                 <td> <?php echo $nome?></td>
                 <td> <?php echo $senha?></td>
                 <td> <?php echo $numero?></td>
-            </tr>
+            </tr><br>
+            <?php
+                }
+            ?>
         </tbody>
     </table>
     
