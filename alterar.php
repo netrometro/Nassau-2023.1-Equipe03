@@ -1,7 +1,7 @@
 <?php
 //session_start();
 include_once 'conexao.php';
-
+    // aleterando dados banco de dados da tabela medicamentos....
     //condição de if com submit
     if(isset($_POST['submit'])){
 
