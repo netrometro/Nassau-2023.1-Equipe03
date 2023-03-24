@@ -48,7 +48,7 @@ if(isset($_POST['submit'])){
             
          </form>  
          <button id ="buttoninicio">  <a href="iniciologado.php"  style="text-decoration:none" > Voltar </button>
-         <button class="buttonmanipuladados">  <a href="exibiusuario.php"  style="text-decoration:none" > Alteração Dados </button>
+         <button class="buttonmanipuladados">  <a href="exibidadosfarmaceutico.php"  style="text-decoration:none" > Visulaiza dados </button>
        
        
     

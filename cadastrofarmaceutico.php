@@ -29,7 +29,7 @@
             <br><br> <br><br> <br><br><br>
             <button id ="buttoninicio">  <a href="iniciologado.php"  style="text-decoration:none" > Voltar </button>
 
-            <button id ="inputsubmit">  <a href="exibiusuario.php"  style="text-decoration:none" > Visualiza dados </button>
+            <button id ="inputsubmit">  <a href="exibidadosfarmaceutico.php"  style="text-decoration:none" > Visualiza dados </button>
         </form>   
         
     

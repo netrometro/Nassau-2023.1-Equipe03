@@ -6,7 +6,7 @@
 <?php
 
     // exibindo dados de farmaceutico
-    $result ="SELECT * FROM cadastrousuario";
+    $result ="SELECT * FROM cadastrousuário";
     $resultado_dados = mysqli_query($conexao, $result);
     $tabela ='<table border="1">';
 
@@ -20,7 +20,7 @@
     <title>FarmaLogo</title>
 </head>
 <body>
-
+<div class="tabelaexibidadosfarmaceuticos">
     <table border ="1" width="100%">
         <thead>
             <th> ID </th>
@@ -51,6 +51,6 @@
             ?>
         </tbody>
     </table>
-    
+</div>
 </body>
 </html>
