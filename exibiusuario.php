@@ -48,7 +48,7 @@
             <td> <?php echo $fabricante?> </td>
         </tr> <br>
         <?php
-        }
+            }
         ?>
     </tbody>
 </table>
