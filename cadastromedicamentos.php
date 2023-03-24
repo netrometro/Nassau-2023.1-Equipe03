@@ -39,13 +39,14 @@ if(isset($_POST['submit'])){
       
         <h1>  Digite os dados </h1>
         <form action ="cadastromedicamentos.php" method="POST"> <!-- Criação de campos para preenchimento -->
+           
             <input type="numero" name="codigo" placeholder="Digite seu codigo"><br><br>          
             <input type="data" name="datan" placeholder="Digite a data"><br><br>
             <input type="fabricante" name="fabricante" placeholder="Digite o fabricante"><br><br>
             
-                <input id="cadastradados" type="submit" name="submit" value="Cadastrar"> <br><br><br> <!-- Criação de tecla de redirecionamento-->
-                <br><br> <br><br> <br><br>
-                <button id ="buttoninicio">  <a href="iniciologado.php"  style="text-decoration:none" > Voltar </button>
+            <input id="cadastradados" type="submit" name="submit" value="Cadastrar"> <br><br><br> <!-- Criação de tecla de redirecionamento-->
+            <br><br> <br><br> <br><br>
+            <button id ="buttoninicio">  <a href="iniciologado.php"  style="text-decoration:none" > Voltar </button>
         </form>  
        
     
