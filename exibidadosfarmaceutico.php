@@ -17,11 +17,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>FarmaLogo</title>
 </head>
 <body>
 <div class="tabelaexibidadosfarmaceuticos">
-    <table border ="1" width="100%">
+    <header class="headerctelacadastro">
+
+        <h1 id="h1cadastro"> Cadastro de Medicamentos </h1>
+
+    </header>
+    <table class="tabelaexibidadosfarmaceuticos" border ="1" width="100%">
         <thead>
             <th> ID </th>
             <th> NOME </th>

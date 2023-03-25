@@ -19,6 +19,14 @@
     color: aliceblue;
   }
   /*div tela de cadastro e demais telas */
+  .tabelaexibidadosfarmaceuticos{
+    background-color: rgba(15, 39, 248, 1);
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    border-radius: 15px;
+    color: aliceblue;
+  }
 .headerctelacadastro{
   background-color: rgb(238, 239, 243);
   position: absolute;
