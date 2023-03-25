@@ -11,21 +11,18 @@
     <title>Cadastrar</title>
 </head>
 <body>
-    <h1>Cadastrar usuário</h1>
+    <h1>Cadastrar medicamentos</h1>
     <?php
         if(isset($_SESSION['msg'])) {
             echo $_SESSION['msg'];
             unset($_SESSION['msg']);
         }
     ?>
-    <!-- DADOS PESSOAIS USUÁRIO -->
+    <!-- DADOS CADASTRO MEDICAMENTOS -->
     <form action="processa.php" method="post">
-        <input type="text" name="nome" placeholder="Digite seu nome aqui">
-        <input type="text" name="cpf" placeholder="Informe cpf">
-        <input type="text" name="email" placeholder="Digite seu E-mail">
-        <input type="text" name="telefone" placeholder="Digite numero de telefone">
-        <input type="text" name="endereco" placeholder="Digite seu endereco">
-        <input type="text" name="sexo" placeholder="Informe sexo 'M' / 'F'">
+        <input type="text" name="codigo" placeholder="Digite o codigo do medicamento">
+        <input type="text" name="fornecedor" placeholder="Informe fornecedor">
+        <input type="text" name="fabricante" placeholder="informe fabricante">
         <input type="submit" value="Cadastrar">
     </form>
 </body>
