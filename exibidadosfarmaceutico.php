@@ -24,7 +24,7 @@
 <div class="tabelaexibidadosfarmaceuticos">
     <header class="headerctelacadastro">
 
-        <h1 id="h1cadastro"> Cadastro de Medicamentos </h1>
+        <h1 id="h1cadastro"> Dados de Farmaceuticos </h1>
 
     </header>
     <table class="tabelaexibidadosfarmaceuticos" border ="1" width="100%">
@@ -51,12 +51,15 @@
                 <td> <?php echo $nome?></td>
                 <td> <?php echo $senha?></td>
                 <td> <?php echo $numero?></td>
-            </tr><br>
+            </tr>
             <?php
                 }
             ?>
         </tbody>
     </table>
 </div>
+<footer>
+    <p> BJJSoftware2023</p>
+</footer>
 </body>
 </html>
