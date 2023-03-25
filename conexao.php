@@ -1,9 +1,8 @@
 <?php
-
-$servidor = "localhost";
-$usuario = "root";
-$senha = "ju1@";
-$dbname = "db_projeto";
+$servername = "localhost";
+$usurname = "root";
+$password = "";
+$dbname ="farmalog";
 
 //Criar a conexão
-$con = mysqli_connect ($servidor, $usuario, $senha, $dbname);
+$conexao = mysqli_connect ($servername, $usurname, $password, $dbname);

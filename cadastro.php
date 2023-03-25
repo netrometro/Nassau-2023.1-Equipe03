@@ -29,4 +29,8 @@
         <input type="submit" value="Cadastrar">
     </form>
 </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> jennifer
