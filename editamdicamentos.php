@@ -14,6 +14,19 @@
 
     <div class ="telainicial">
 
+        <h1>  Aletrar dados Medicamentos </h1>
+
+        <form action = "alterar.php" method="POST">
+
+            <input type= "numero" name ="id" placeholder="Digite o id para alterar os">
+            <input type= "numero" name ="codigo" placeholder="Digite o novo codigo">
+            <input type= "date" name ="datan" placeholder="Digite a nova data">
+            <input type= "fabricante" name ="id" placeholder="Digite o novo fabricante">
+
+        </form>
+        <br><br>
+
+
     </div>
     
 </body>
