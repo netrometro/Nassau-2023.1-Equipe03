@@ -25,7 +25,7 @@
 
         <form action = "alterar.php" method="POST">
 
-            <input type= "numero" name ="id" placeholder="Digite o id para alterar os">
+            <input type= "numero" name ="id" placeholder="Digite o id para alterar os"><br>
             <input type= "numero" name ="codigo" placeholder="Digite o novo codigo"><br>
             <input type= "date" name ="datan" placeholder="Digite a nova data"><br>
             <input type= "fabricante" name ="fabricante" placeholder="Digite o novo fabricante"><br>
