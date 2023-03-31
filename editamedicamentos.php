@@ -27,9 +27,9 @@
             <input type= "numero" name ="id" placeholder="Digite o id para alterar os">
             <input type= "numero" name ="codigo" placeholder="Digite o novo codigo">
             <input type= "date" name ="datan" placeholder="Digite a nova data">
-            <input type= "fabricante" name ="id" placeholder="Digite o novo fabricante">
+            <input type= "fabricante" name ="fabricante" placeholder="Digite o novo fabricante">
 
-            <input id= "cadastrados" type="submit" name ="submit" value="Alterar">
+            <input id="cadastrados"  type="submit" name ="submit" value="Alterar">
 
         </form>
         <br><br>
