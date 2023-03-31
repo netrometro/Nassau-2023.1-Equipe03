@@ -26,6 +26,40 @@
         </form>
         <br><br>
 
+        <table border="1" width="100%"> 
+
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>CÓDIGO</th>
+            <th>DATA VALIDADE </th>
+            <th>FABRICANTE</th>
+        </tr>
+
+    </thead>
+    <tbody>
+        <?php
+
+            while($row_usuario = mysqli_fetch_assoc($resulta_dados)){
+
+                $id = $row_usuario['id']. "<br>";
+                $codigo= $row_usuario['codigo']. "<br>";
+                $data = $row_usuario['validade']. "<br>";
+                $fabricante = $row_usuario['fabricante']. "<br>";
+
+        ?>    
+        <tr>
+            <td> <?php echo $id?> </td>
+            <td> <?php echo $codigo?> </td>
+            <td> <?php echo $data?> </td>
+            <td> <?php echo $fabricante?> </td>
+        </tr> <br>
+        <?php
+            }
+        ?>
+    </tbody>
+</table>
+
 
     </div>
     
