@@ -3,9 +3,9 @@
 ?>
 <?php
 
-    $result = "SELECT * FROM cadastrosmedicamentos";
+    $result = "SELECT * FROM cadastromedicamentos";
     $resulta_dados = mysqli_query($conexao, $result);
-    $tabela = '<tabela = border="1">';
+    $tabela = '<table border="1">';
 
 ?>
 <!DOCTYPE html>
@@ -29,10 +29,12 @@
             <input type= "date" name ="datan" placeholder="Digite a nova data">
             <input type= "fabricante" name ="id" placeholder="Digite o novo fabricante">
 
+            <input id= "cadastrados" type="submit" name ="submit" value="Alterar">
+
         </form>
         <br><br>
 
-        <table border="1" width="100%"> 
+    <table border="1" width="100%"> 
 
     <thead>
         <tr>
