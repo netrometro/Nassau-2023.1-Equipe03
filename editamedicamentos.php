@@ -14,20 +14,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title> Medicamentos </title>
 </head>
 <body>
 
-    <div class ="telainicial">
+    <div class ="Divtelainicial">
 
         <h1>  Aletrar dados Medicamentos </h1>
 
         <form action = "alterar.php" method="POST">
 
             <input type= "numero" name ="id" placeholder="Digite o id para alterar os">
-            <input type= "numero" name ="codigo" placeholder="Digite o novo codigo">
-            <input type= "date" name ="datan" placeholder="Digite a nova data">
-            <input type= "fabricante" name ="fabricante" placeholder="Digite o novo fabricante">
+            <input type= "numero" name ="codigo" placeholder="Digite o novo codigo"><br>
+            <input type= "date" name ="datan" placeholder="Digite a nova data"><br>
+            <input type= "fabricante" name ="fabricante" placeholder="Digite o novo fabricante"><br>
 
             <input id="cadastrados"  type="submit" name ="submit" value="Alterar">
 
