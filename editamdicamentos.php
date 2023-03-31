@@ -1,7 +1,13 @@
 <?php
  include_once 'conexao.php';
 ?>
+<?php
 
+    $result = "SELECT * FROM cadastrosmedicamentos";
+    $resulta_dados = mysqli_query($conexao, $result);
+    $tabela = '<tabela = border="1">';
+
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
