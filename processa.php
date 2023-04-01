@@ -10,14 +10,22 @@ $telefone = filter_input (INPUT_POST, 'telefone');
 $endereco = filter_input (INPUT_POST, 'endereco');
 $sexo = filter_input (INPUT_POST, 'sexo');
 
-$result_usuario = "INSERT INTO usuario (nome, cpf, email, telefone, endereco, sexo) VALUE ('$nome', '$cpf', '$email', '$telefone', '$endereco', '$sexo')";
+$result_usuario = "INSERT INTO usuario (nome, cpf, email, telefone, endereco, sexo)
+                    VALUE ('$nome', '$cpf', '$email', '$telefone', '$endereco', '$sexo')";
+
 $resultado_usuario = mysqli_query($con, $result_usuario);
 
 $codigo = filter_input (INPUT_POST, 'codigo');
 $fornecedor = filter_input (INPUT_POST, 'fornecedor');
 $fabricante = filter_input (INPUT_POST, 'fabricante');
+$preco = filter_input(INPUT_POST,'preco');
 
-$result_medicamento = "INSERT INTO medicamentos (codigo, fornecedor, fabricante) VALUE ('$codigo', '$fornecedor', '$fabricante')";
+$result_medicamento = "INSERT INTO medicamentos (codigo, fornecedor, fabricante, preco)
+                        VALUE ('$codigo', '$fornecedor', '$fabricante', $preco)";
+
+
+
+
 $resultado_medicamentos = mysqli_query($con, $result_medicamento);
 
 if (mysqli_insert_id($con)){
@@ -35,6 +43,10 @@ if (mysqli_insert_id($con)){
     $_SESSION['msg'] = "<p style='color:red;'>Medicamento não cadastrado</p>";
     header("Location: cadastraMedicamentos.php");
 }
+
+
+//consulta da tabela medicamentos
+
 
 // echo "Nome: $nome <br>";
 // echo "CPF: $cpf <br>";
