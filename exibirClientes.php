@@ -12,13 +12,15 @@ $result = "SELECT * FROM db_projeto";
 $resulta_dados = mysqli_query($conexao, $result);
 $tabela = '<table border="1">';
 
-while($row_usuario = mysqli_fetch_assoc($resulta_dados)){
+while($row_clientes = mysqli_fetch_assoc($resulta_dados)){
 
                 $id = $row_clientes['id']. "<br>";
                 $codigo= $row_clientes['nome']. "<br>";
                 $data = $row_clientes['email']. "<br>";
                 $fabricante = $row_clientes['fabricante']. "<br>";
 }
+
+
 
 ?>
 
@@ -30,4 +32,11 @@ while($row_usuario = mysqli_fetch_assoc($resulta_dados)){
         <td>Email</td>
         <td>Telefone</td>
     </tr>
+
+    <tr>
+            <td> <?php echo $id?> </td>
+            <td> <?php echo $codigo?> </td>
+            <td> <?php echo $data?> </td>
+            <td> <?php echo $fabricante?> </td>
+    </tr> <br>
 </table>
